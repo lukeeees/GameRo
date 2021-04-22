@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+/* navbar */
+.navbar{
+    background: #0e0e0c;
+    padding: 10px 40px;
+}
+.nav-link{
+    font-family: 'Yantramanav', sans-serif;
+    text-transform: uppercase;
+}
+/* header image */
+
+  @media(max-width: 995px){
+      .navbar .btnRegist{
+          display: none;
+      }
+  }
